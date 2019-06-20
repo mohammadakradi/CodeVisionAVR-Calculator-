@@ -29,9 +29,9 @@ PORTB.6=1;
 //---- ROW4 ----
 PORTB.7=0;
 delay_ms(2);
-if(PINB.0==0) { lcd_putchar('/'); flag=1; delay_ms(300); }
-if(PINB.1==0) { lcd_putchar('*'); flag=2;delay_ms(300); }
-if(PINB.2==0) { lcd_putchar('-'); flag=3; delay_ms(300); }
-if(PINB.3==0) { lcd_putchar('+'); flag=4; delay_ms(300); }
+if(PINB.0==0) { lcd_putchar('/'); flag2=1; delay_ms(300); }
+if(PINB.1==0) { lcd_putchar('*'); flag2=2;delay_ms(300); }
+if(PINB.2==0) { lcd_putchar('-'); flag2=3; delay_ms(300); }
+if(PINB.3==0) { lcd_putchar('+'); flag2=4; delay_ms(300); }
 PORTB.7=1;
 }
