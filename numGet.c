@@ -1,6 +1,7 @@
 int numGet(void)
 {
     flag=0;
+    num=0;
     while(flag<1){
         keypad();
         if(key!=20){
@@ -11,6 +12,5 @@ int numGet(void)
             num*=10;
         }
     }
-    lcd_puts("#");
     return num/10;
 }
