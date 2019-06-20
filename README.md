@@ -11,3 +11,6 @@ This function changes the value of the k variable to pushed button.
 If you push operator buttons (+, *, -, /) it will change value of the flag variable which we use it in the numGet function. 
 So it should be defined as a global variable.
 Now copy and put numGet function in your code. When we call this function, it begins to get nums and creates an integer number which is saved in num variable and displays on LCD until we push one of operator buttons which changes the flag's value.
+
+watch the video on youtube:
+https://youtu.be/arvPwiWf1fw
