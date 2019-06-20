@@ -8,7 +8,7 @@ delay_ms(2);
 if(PINB.0==0) key=7;
 if(PINB.1==0) key=4;
 if(PINB.2==0) key=1;
-if(PINB.3==0) lcd_clear();
+if(PINB.3==0) {lcd_clear(); flag = 0;}
 PORTB.4=1;
 //---- ROW2 ----
 PORTB.5=0;
